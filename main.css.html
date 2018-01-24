@@ -1,0 +1,192 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+* {box-sizing: border-box;}
+header{
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+font-family: "Source Code Pro";
+height: 300px;
+background-image: url("minimal-power-lines.jpg");
+background-position:bottom;
+margin-top: -12px;
+padding: 0px;
+}
+header>h1 {
+  text-align: center;
+  padding-top:90px;
+}
+a {
+  padding: 0px 130px 0px 130px;
+  text-decoration: none;
+  color: black;
+  text-align:center;
+}
+nav {
+  margin-top: 288px;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+nav > ul {
+margin:0;
+display: block;
+border-top: 1px solid grey;
+border-bottom: 1px solid grey;
+text-align: center;
+background-color: white;
+}
+
+nav>ul>li {
+display: inline-block;
+padding-top: 10px;
+height: 30px;
+}
+ nav>ul>li>ul {
+   background-color: rgb(220,220,220);
+   border-top: 1px solid grey;
+   border-bottom:1px solid grey;
+   list-style:none;
+   position:absolute;
+   display:none;
+
+   margin-top: 11px;
+
+ }
+ nav>ul>li>ul>li {
+      padding: 10px 0 0 0;
+      height: 29px;
+      margin-left: -40px;
+      width: 338px;
+ }
+
+
+nav>ul>li:hover {
+  background-color: rgb(220,220,220);
+}
+nav>ul>li:hover>ul {
+display: block;
+}
+nav>ul>li>ul>li:hover {
+  margin-top: 0px;
+  background-color: grey;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20% ;
+  grid-template-rows: 30% 50% 1fr;
+    background-color: rgb(240,240,240);
+}
+article {
+  border-radius: 50px;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin: 30px 20px 30px 20px;
+  background-color: white;
+}
+h1 {
+  border: none;
+  font-size: 35px;}
+
+  article>h1 {
+  margin:0px 0px 20px 0px;
+  border-bottom: 1px solid rgb(240,240,240);
+}
+article>p {
+  margin:50px;
+}
+.about {
+  border-radius: 50px;
+  text-align: center;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  background-color: white;
+  margin: 30px 20px 30px 20px;
+  height: 450px;
+}
+.about>h1 {
+  border-bottom: 1px solid rgb(240,240,240);
+  margin-top: 0px;
+}
+.misc {
+  border-radius: 50px;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: white;
+  text-align: center;
+  text-decoration: underline;
+  margin: 0px 20px 30px 20px;
+}
+
+.tagline {
+  font-size: 15px;
+  text-align: center;
+  margin-top: -10px
+
+}
+article>img {
+  display:block;
+  width: 700px;
+  height: 200px;
+  margin: 0px auto 0 auto;
+}
+.about>img {
+  display:block;
+  width: 30;
+  margin: 0px auto 0 auto;
+}
+.tagline>span {
+  display:inline-block;
+  width: 13px;
+}
+.plugs {
+  margin:10px;
+}
+.plugs>a {
+  padding:0;
+  margin:0;
+}
+.plugs>a>.instagram {
+  display:inline-block;
+  width: 30px;
+  padding:3px 6px 1px 7px;
+  background-color: rgb(205,72,107);
+  border-radius: 15px;
+  margin:0px;
+}
+.plugs>a>.instagram:hover {
+  background-color: rgb(165,32,67);
+}
+.plugs>a>.twitter {
+  display: inline-block;
+  width: 30px;
+  padding:7px 6px 2px 6px;
+  background-color: rgb(85,172,238);
+  border-radius: 15px;
+  margin:0px;
+}
+.plugs>a>.twitter:hover {
+  background-color: rgb(25,112,178);
+}
+.plugs>a>.tumblr {
+  display: inline-block;
+  width: 20px;
+  padding:5px 12px 2px 12px;
+  background-color: rgb(50,80,109);
+  border-radius: 15px;
+  margin:0;
+}
+.plugs>a>.tumblr:hover {
+  background-color: rgb(0,30,59);
+}
+
+</style>
